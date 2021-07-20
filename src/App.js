@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Container fluid="md">
+        <Row><div style={{margin:'20px'}}><h1>Friends list</h1></div></Row>
         <Row>
           {friends.map((friend)=>{
             return(
